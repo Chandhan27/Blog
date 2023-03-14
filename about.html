@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavoures of india</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav>
+        <div class="nav-wrapper green">
+            <a href="#" class="brand-logo"><img height="30px" src="#" alt="Flavoures of india"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="eat.html">Dishes</a></li>
+                <li><a href="#"><i class="material-icons">search</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="eat.html">Dishes</a></li>
+        <li><a href="#"><i class="material-icons">search</i></a></li>
+    </ul>
+    <!-- End of Nav -->
+
+
+
+    <!---About-->
+    <div class="container">
+        <br><br><br>
+        <img src="#" style="width: 80%; height: 50%; border: 5px solid black;">
+        <h4>
+            <p>It's me S.Chandhan</p>
+        </h4>
+    </div>
+
+
+    <br><br><br>
+
+
+
+    <!-- Footer Part -->
+    <!-- Footer -->
+    <footer class="page-footer green">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">About Me</h5>
+                    <img src="#" style="width: 20%; height: 10%;">
+                    <p class="grey-text text-lighten-4">It's me chandhan</p>
+                </div>
+
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">SOCIALS</h5>
+                    <ul>
+                        </ol>
+                        <li><a href="#"
+                                target="_blank">Facebook</a></li>
+
+                        <li><a href="#"
+                                target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2023 Blog, All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+        });
+    </script>
+</body>
+
+</html>
